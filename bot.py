@@ -8,7 +8,7 @@ from aiogram import Bot, Dispatcher, types
 TOKEN = "7254378450:AAEHF0DGXgAJjyj4z2-AHjlPdy0W33ESYjw"
 CHANNEL_ID = "@your_channel_here"
 BANNER_URL = "https://raw.githubusercontent.com/euclid-Devices/vendor_euclidOTA/16/assets/banner.png"
-GITHUB_API_BUILDS = "https://api.github.com/repos/euclid-Devices/vendor_euclidOTA/contents/builds/16"
+GITHUB_API_BUILDS = "https://github.com/euclid-Devices/vendor_euclidOTA/tree/16/builds"
 LOCAL_RECORD = "latest_builds.json"
 
 bot = Bot(token=TOKEN, parse_mode="HTML")
